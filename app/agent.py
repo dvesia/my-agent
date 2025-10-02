@@ -33,6 +33,7 @@ def get_weather(query: str) -> str:
 
     Returns:
         A string with the simulated weather information for the queried location.
+        
     """
     if "sf" in query.lower() or "san francisco" in query.lower():
         return "It's 60 degrees and foggy."
