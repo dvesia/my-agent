@@ -1,0 +1,11 @@
+staging_project_id = "adk-agent-staging"
+prod_project_id = "adk-agent-prod"
+cicd_runner_project_id = "adk-agent-prod"
+region = "us-central1"
+repository_name = "my-agent"
+repository_owner = "dvesia"
+host_connection_name = "git-my-agent"
+create_cb_connection = true
+create_repository = false
+github_app_installation_id = "88395146"
+github_pat_secret_id = "git-my-agent-github-oauthtoken-1648c6"
